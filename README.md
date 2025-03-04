@@ -1,8 +1,8 @@
-# ResNet-UNet for Crater Detection
+# Lunar Crater Detection using CNN
 
 ## Overview
 
-This project implements a **deep ResNet-UNet model** for crater detection using TensorFlow/Keras. The model is designed to segment craters in images, leveraging the **ResNet blocks** for feature extraction and **UNet architecture** for upsampling and segmentation.
+This project implements a **deep ResNet-UNet model** for crater detection using TensorFlow/Keras. The CNN model is designed to segment craters in images, leveraging the **ResNet blocks** for feature extraction and **UNet architecture** for upsampling and segmentation.
 
 ## Model Architecture
 
@@ -36,7 +36,7 @@ Each **ResNet block** contains:
  - Dataset- [Impact Moon Craters (LU3M6TGT)](https://www.kaggle.com/datasets/riccardolagrassa/lu3m6tgt?resource=download-directory) dataset from Kaggle
 
  - After downloading the dataset, run ```move_empty.py```, to clean the dataset of empty image and labels, these are the images donot contain any craters, so we move them to separate directory
-  
+
 
 ## Results
 
