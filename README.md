@@ -40,7 +40,7 @@ Each **ResNet block** contains:
 
 ## Results
 
-During several training runs, the model yeilds an averange validation accuracy of about 0.95 and a validation loss of about 0.18
+During several training runs, the model yeilds an averange validation accuracy of about **0.95** and a validation loss of about **0.18**
 
 Details of the most recent run:
 
@@ -82,7 +82,7 @@ Details of the most recent run:
 
 ## Conclusion
 
-This **ResNet-UNet model** effectively detects craters by combining deep residual learning with UNet-style segmentation. The use of **skip connections and residual blocks** improves performance, making it robust for complex image segmentation tasks.
+This **CNN model** effectively detects craters by combining deep residual learning with UNet-style segmentation. The use of **skip connections and residual blocks** improves performance, making it robust for complex image segmentation tasks.
 
 
 
