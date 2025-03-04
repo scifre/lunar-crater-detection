@@ -24,11 +24,18 @@ Each **ResNet block** contains:
 
 ## Usage
 
- - ```sh
-   git clone https://github.com/your-username/crater-detection.git
-    cd crater-detection
-    pip install -r requirements.txt
+ - Clone the repo
+   ```sh
+   git clone https://github.com/scifre/crater-detection.git
+   cd crater-detection
     ```
+ - Install dependencies
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Results
+
 
 ## Conclusion
 
