@@ -33,6 +33,10 @@ Each **ResNet block** contains:
    ```sh
    pip install -r requirements.txt
    ```
+ - Dataset- [Impact Moon Craters (LU3M6TGT)](https://www.kaggle.com/datasets/riccardolagrassa/lu3m6tgt?resource=download-directory) dataset from Kaggle
+
+ - After downloading the dataset, run ```move_empty.py```, to clean the dataset of empty image and labels, these are the images donot contain any craters, so we move them to separate directory
+  
 
 ## Results
 
